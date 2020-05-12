@@ -1,0 +1,226 @@
+-t
+PMI check passed
+PMI check, 2 4 3 12  1.0
+ttest check, 2 4 3 12  0.2886751345948129
+PMI alpha check, 2 4 3 12 0.4500000000000002
+cos_sim check: {1: 1, 2: 1, 3: 2} {2: 2, 4: 1} 0.3651483716701107
+jaccard_similarity: {1: 1, 2: 1, 3: 2} {2: 2, 4: 1} 0.16666666666666666
+dice_measure: {1: 1, 2: 1, 3: 2} {2: 2, 4: 1} 0.2857142857142857
+euclidean distance: {1: 1, 2: 1, 3: 2} {2: 2, 4: 1} 2.6457513110645907
+Jensen-Shannon Divergence {1: 0.1, 2: 0.9} {2: 0.1, 3: 0.9} 0.5306056938642212
+test words:  ['cat', 'dog', 'mouse', 'computer', '@justinbieber']
+['cat', 'dog', 'mouse', 'computer', '@justinbieber']
+Sort by cosine
+0.36	cat vs dog                    	169733	287114
+0.17	comput vs mous                	160828	22265
+0.12	cat vs mous                   	169733	22265
+0.09	mous vs dog                   	22265	287114
+0.07	cat vs comput                 	169733	160828
+0.06	comput vs dog                 	160828	287114
+0.02	@justinbieber vs dog          	703307	287114
+0.01	cat vs @justinbieber          	169733	703307
+0.01	@justinbieber vs comput       	703307	160828
+0.01	@justinbieber vs mous         	703307	22265
+check_cosine Freq vs Similarity Spearman correlation = -0.15
+
+Sort by cosine_alpha
+0.20	cat vs dog                    	169733	287114
+0.06	comput vs mous                	160828	22265
+0.02	cat vs mous                   	169733	22265
+0.01	cat vs comput                 	169733	160828
+0.01	mous vs dog                   	22265	287114
+0.00	cat vs @justinbieber          	169733	703307
+0.00	@justinbieber vs mous         	703307	22265
+0.00	@justinbieber vs dog          	703307	287114
+0.00	comput vs dog                 	160828	287114
+0.00	@justinbieber vs comput       	703307	160828
+check_cosine_alpha Freq vs Similarity Spearman correlation = -0.22
+
+Sort by cosine_ttest
+0.27	cat vs dog                    	169733	287114
+0.06	comput vs mous                	160828	22265
+0.03	mous vs dog                   	22265	287114
+0.03	cat vs mous                   	169733	22265
+0.03	cat vs comput                 	169733	160828
+0.03	comput vs dog                 	160828	287114
+0.01	@justinbieber vs comput       	703307	160828
+0.01	@justinbieber vs dog          	703307	287114
+0.01	cat vs @justinbieber          	169733	703307
+0.00	@justinbieber vs mous         	703307	22265
+check_cosine_ttest Freq vs Similarity Spearman correlation = -0.23
+
+Sort by jaccard
+0.23	cat vs dog                    	169733	287114
+0.09	comput vs mous                	160828	22265
+0.07	cat vs mous                   	169733	22265
+0.06	cat vs comput                 	169733	160828
+0.05	comput vs dog                 	160828	287114
+0.05	mous vs dog                   	22265	287114
+0.01	@justinbieber vs dog          	703307	287114
+0.01	cat vs @justinbieber          	169733	703307
+0.01	@justinbieber vs comput       	703307	160828
+0.01	@justinbieber vs mous         	703307	22265
+check_jaccard Freq vs Similarity Spearman correlation = -0.06
+
+Sort by jaccard_alpha
+0.10	cat vs dog                    	169733	287114
+0.03	comput vs mous                	160828	22265
+0.01	cat vs mous                   	169733	22265
+0.01	cat vs comput                 	169733	160828
+0.00	mous vs dog                   	22265	287114
+0.00	cat vs @justinbieber          	169733	703307
+0.00	@justinbieber vs mous         	703307	22265
+0.00	comput vs dog                 	160828	287114
+0.00	@justinbieber vs dog          	703307	287114
+0.00	@justinbieber vs comput       	703307	160828
+check_jaccard_alpha Freq vs Similarity Spearman correlation = -0.27
+
+Sort by jaccard_ttest
+0.20	cat vs dog                    	169733	287114
+0.06	comput vs mous                	160828	22265
+0.05	cat vs mous                   	169733	22265
+0.04	cat vs comput                 	169733	160828
+0.04	comput vs dog                 	160828	287114
+0.04	mous vs dog                   	22265	287114
+0.01	@justinbieber vs dog          	703307	287114
+0.01	cat vs @justinbieber          	169733	703307
+0.01	@justinbieber vs comput       	703307	160828
+0.00	@justinbieber vs mous         	703307	22265
+check_jaccard_ttest Freq vs Similarity Spearman correlation = -0.06
+
+Sort by dice
+0.37	cat vs dog                    	169733	287114
+0.16	comput vs mous                	160828	22265
+0.14	cat vs mous                   	169733	22265
+0.11	cat vs comput                 	169733	160828
+0.10	comput vs dog                 	160828	287114
+0.10	mous vs dog                   	22265	287114
+0.03	@justinbieber vs dog          	703307	287114
+0.02	cat vs @justinbieber          	169733	703307
+0.02	@justinbieber vs comput       	703307	160828
+0.01	@justinbieber vs mous         	703307	22265
+check_dice Freq vs Similarity Spearman correlation = -0.06
+
+Sort by dice_alpha
+0.18	cat vs dog                    	169733	287114
+0.06	comput vs mous                	160828	22265
+0.02	cat vs mous                   	169733	22265
+0.01	cat vs comput                 	169733	160828
+0.01	mous vs dog                   	22265	287114
+0.00	cat vs @justinbieber          	169733	703307
+0.00	@justinbieber vs mous         	703307	22265
+0.00	comput vs dog                 	160828	287114
+0.00	@justinbieber vs dog          	703307	287114
+0.00	@justinbieber vs comput       	703307	160828
+check_dice_alpha Freq vs Similarity Spearman correlation = -0.27
+
+Sort by dice_ttest
+0.33	cat vs dog                    	169733	287114
+0.11	comput vs mous                	160828	22265
+0.10	cat vs mous                   	169733	22265
+0.08	cat vs comput                 	169733	160828
+0.08	comput vs dog                 	160828	287114
+0.08	mous vs dog                   	22265	287114
+0.02	@justinbieber vs dog          	703307	287114
+0.02	cat vs @justinbieber          	169733	703307
+0.02	@justinbieber vs comput       	703307	160828
+0.01	@justinbieber vs mous         	703307	22265
+check_dice_ttest Freq vs Similarity Spearman correlation = -0.06
+
+Sort by ecculidean
+329.85	@justinbieber vs dog          	703307	287114
+326.29	@justinbieber vs comput       	703307	160828
+322.22	cat vs @justinbieber          	169733	703307
+303.77	@justinbieber vs mous         	703307	22265
+233.43	comput vs dog                 	160828	287114
+221.48	cat vs comput                 	169733	160828
+198.67	mous vs dog                   	22265	287114
+188.27	cat vs dog                    	169733	287114
+185.05	comput vs mous                	160828	22265
+183.17	cat vs mous                   	169733	22265
+check_ecculidean Freq vs Similarity Spearman correlation = 0.58
+
+Sort by ecculidean_alhpa
+77.92	@justinbieber vs mous         	703307	22265
+75.88	cat vs @justinbieber          	169733	703307
+73.13	@justinbieber vs comput       	703307	160828
+73.08	@justinbieber vs dog          	703307	287114
+55.47	cat vs mous                   	169733	22265
+51.87	mous vs dog                   	22265	287114
+50.56	comput vs mous                	160828	22265
+48.81	cat vs comput                 	169733	160828
+44.40	comput vs dog                 	160828	287114
+43.94	cat vs dog                    	169733	287114
+check_ecculidean_alhpa Freq vs Similarity Spearman correlation = -0.09
+
+Sort by ecculidean_ttest
+0.74	@justinbieber vs mous         	703307	22265
+0.73	cat vs @justinbieber          	169733	703307
+0.73	@justinbieber vs dog          	703307	287114
+0.72	@justinbieber vs comput       	703307	160828
+0.36	cat vs mous                   	169733	22265
+0.35	mous vs dog                   	22265	287114
+0.33	comput vs mous                	160828	22265
+0.30	cat vs comput                 	169733	160828
+0.29	comput vs dog                 	160828	287114
+0.28	cat vs dog                    	169733	287114
+check_ecculidean_ttest Freq vs Similarity Spearman correlation = -0.04
+
+Sort by jsd
+9404.41	@justinbieber vs dog          	703307	287114
+8844.36	@justinbieber vs comput       	703307	160828
+8547.31	cat vs @justinbieber          	169733	703307
+7112.87	@justinbieber vs mous         	703307	22265
+5655.92	comput vs dog                 	160828	287114
+4788.20	cat vs comput                 	169733	160828
+4022.17	mous vs dog                   	22265	287114
+3449.46	cat vs dog                    	169733	287114
+3191.37	comput vs mous                	160828	22265
+3050.90	cat vs mous                   	169733	22265
+check_jsd Freq vs Similarity Spearman correlation = 0.58
+
+Sort by jsd_alpha
+929.03	cat vs @justinbieber          	169733	703307
+922.26	@justinbieber vs comput       	703307	160828
+914.70	@justinbieber vs dog          	703307	287114
+913.12	@justinbieber vs mous         	703307	22265
+398.32	cat vs comput                 	169733	160828
+387.78	comput vs dog                 	160828	287114
+385.92	cat vs mous                   	169733	22265
+377.43	mous vs dog                   	22265	287114
+355.08	comput vs mous                	160828	22265
+310.54	cat vs dog                    	169733	287114
+check_jsd_alpha Freq vs Similarity Spearman correlation = 0.39
+
+Sort by jsd_ttest
+9.82	@justinbieber vs dog          	703307	287114
+9.45	@justinbieber vs comput       	703307	160828
+9.31	cat vs @justinbieber          	169733	703307
+8.40	@justinbieber vs mous         	703307	22265
+3.95	comput vs dog                 	160828	287114
+3.46	cat vs comput                 	169733	160828
+2.90	mous vs dog                   	22265	287114
+2.39	cat vs dog                    	169733	287114
+2.34	cat vs mous                   	169733	22265
+2.34	comput vs mous                	160828	22265
+check_jsd_ttest Freq vs Similarity Spearman correlation = 0.58
+
+freq vs similarity
+cosine -0.1461975970176575
+cosine_alpha -0.22247460415730486
+cosine_ttest -0.22883102141894215
+jaccard -0.05720775535473554
+jaccard_alpha -0.27332594225040313
+jaccard_ttest -0.05720775535473554
+dice -0.05720775535473554
+dice_alpha -0.27332594225040313
+dice_ttest -0.05720775535473554
+ecculidean 0.58479038807063
+ecculidean_alhpa -0.08898984166292194
+ecculidean_ttest -0.03813850356982369
+jsd 0.58479038807063
+jsd_alpha 0.3940978702215115
+jsd_ttest 0.58479038807063
+N 138489679.0
+sum o_counts values 641514746
+Vocabulry size, number of keys in o_counts 210516

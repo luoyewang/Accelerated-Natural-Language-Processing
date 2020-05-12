@@ -1,0 +1,6 @@
+subway|metro
+underground|subway
+underground|metro
+children|kid
+prawn|shrimp
+holiday|vacation

@@ -1,0 +1,97 @@
+PMI check passed
+PMI alpha check, 2 4 3 12 0.5000000000000001
+cos_sum check: {1: 1, 2: 1, 3: 2} {2: 2, 4: 1} 0.3651483716701107
+jaccard_similarity: {1: 1, 2: 1, 3: 2} {2: 2, 4: 1} 0.16666666666666666
+dice_measure: {1: 1, 2: 1, 3: 2} {2: 2, 4: 1} 0.2857142857142857
+euclidean distance: {1: 1, 2: 1, 3: 2} {2: 2, 4: 1} 2.6457513110645907
+Sort by cosine similarity
+0.29	('kid', 'children')           	646599	135443
+0.16	('metro', 'underground')      	21907	14054
+0.16	('metro', 'subway')           	21907	31084
+0.09	('metro', 'children')         	21907	135443
+0.09	('children', 'underground')   	135443	14054
+0.08	('subway', 'underground')     	31084	14054
+0.05	('children', 'subway')        	135443	31084
+0.05	('kid', 'subway')             	646599	31084
+0.04	('kid', 'underground')        	646599	14054
+0.04	('metro', 'kid')              	21907	646599
+Sort by cosine similarity by PPMI with smoothing
+0.10	('kid', 'children')           	646599	135443
+0.05	('metro', 'subway')           	21907	31084
+0.02	('metro', 'underground')      	21907	14054
+0.01	('subway', 'underground')     	31084	14054
+0.00	('children', 'underground')   	135443	14054
+0.00	('metro', 'children')         	21907	135443
+0.00	('children', 'subway')        	135443	31084
+0.00	('metro', 'kid')              	21907	646599
+0.00	('kid', 'subway')             	646599	31084
+0.00	('kid', 'underground')        	646599	14054
+Sort by jacard similarity
+0.14	('kid', 'children')           	646599	135443
+0.14	('metro', 'underground')      	21907	14054
+0.11	('metro', 'subway')           	21907	31084
+0.07	('subway', 'underground')     	31084	14054
+0.06	('metro', 'children')         	21907	135443
+0.05	('children', 'underground')   	135443	14054
+0.03	('children', 'subway')        	135443	31084
+0.03	('metro', 'kid')              	21907	646599
+0.02	('kid', 'subway')             	646599	31084
+0.02	('kid', 'underground')        	646599	14054
+Sort by jacard similarity by PPMI with smoothing
+0.03	('metro', 'subway')           	21907	31084
+0.03	('kid', 'children')           	646599	135443
+0.01	('metro', 'underground')      	21907	14054
+0.01	('subway', 'underground')     	31084	14054
+0.00	('metro', 'children')         	21907	135443
+0.00	('children', 'underground')   	135443	14054
+0.00	('children', 'subway')        	135443	31084
+0.00	('metro', 'kid')              	21907	646599
+0.00	('kid', 'subway')             	646599	31084
+0.00	('kid', 'underground')        	646599	14054
+Sort by dice coefficient
+0.25	('kid', 'children')           	646599	135443
+0.24	('metro', 'underground')      	21907	14054
+0.20	('metro', 'subway')           	21907	31084
+0.12	('subway', 'underground')     	31084	14054
+0.12	('metro', 'children')         	21907	135443
+0.10	('children', 'underground')   	135443	14054
+0.06	('children', 'subway')        	135443	31084
+0.05	('metro', 'kid')              	21907	646599
+0.05	('kid', 'subway')             	646599	31084
+0.04	('kid', 'underground')        	646599	14054
+Sort by dice coefficient by PPMI with smoothing
+0.06	('metro', 'subway')           	21907	31084
+0.06	('kid', 'children')           	646599	135443
+0.03	('metro', 'underground')      	21907	14054
+0.02	('subway', 'underground')     	31084	14054
+0.00	('metro', 'children')         	21907	135443
+0.00	('children', 'underground')   	135443	14054
+0.00	('children', 'subway')        	135443	31084
+0.00	('metro', 'kid')              	21907	646599
+0.00	('kid', 'subway')             	646599	31084
+0.00	('kid', 'underground')        	646599	14054
+Sort by euclidean distance
+216.76	('kid', 'children')           	646599	135443
+214.88	('metro', 'children')         	21907	135443
+211.85	('children', 'subway')        	135443	31084
+209.58	('children', 'underground')   	135443	14054
+203.80	('metro', 'kid')              	21907	646599
+197.02	('kid', 'underground')        	646599	14054
+195.05	('kid', 'subway')             	646599	31084
+144.08	('metro', 'underground')      	21907	14054
+142.87	('metro', 'subway')           	21907	31084
+139.70	('subway', 'underground')     	31084	14054
+Sort by euclidean distance by PPMI with smoothing
+53.60	('metro', 'children')         	21907	135443
+53.04	('metro', 'underground')      	21907	14054
+51.87	('children', 'underground')   	135443	14054
+49.91	('metro', 'subway')           	21907	31084
+49.51	('children', 'subway')        	135443	31084
+49.13	('subway', 'underground')     	31084	14054
+42.70	('metro', 'kid')              	21907	646599
+40.53	('kid', 'underground')        	646599	14054
+39.07	('kid', 'children')           	646599	135443
+37.43	('kid', 'subway')             	646599	31084
+N 138489679.0
+641514746
+210516

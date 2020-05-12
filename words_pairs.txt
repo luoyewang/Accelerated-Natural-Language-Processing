@@ -1,0 +1,6 @@
+coca|cola
+great|wall
+united|kingdom
+taylor|swift
+neural|network
+linear|regression

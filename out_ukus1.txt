@@ -1,0 +1,606 @@
+-e
+{'holiday', 'metro', 'shrimp', 'prawn', 'vacation', 'subway', 'children', 'underground', 'kid'}
+Sort by cosine
+0.43	shrimp vs prawn               	16339	2582	38
+0.29	kid vs children               	646599	135443	4050
+0.28	holiday vs vacat              	113007	69668	766
+0.17	subway vs shrimp              	31084	16339	0
+0.16	metro vs underground          	21907	14054	39
+0.16	metro vs subway               	21907	31084	64
+0.15	subway vs prawn               	31084	2582	0
+0.10	holiday vs children           	113007	135443	254
+0.10	metro vs vacat                	21907	69668	0
+0.10	metro vs holiday              	21907	113007	23
+0.09	metro vs children             	21907	135443	21
+0.09	children vs vacat             	135443	69668	109
+0.09	children vs underground       	135443	14054	15
+0.08	subway vs underground         	31084	14054	71
+0.07	kid vs holiday                	646599	113007	848
+0.07	kid vs vacat                  	646599	69668	606
+0.06	vacat vs underground          	69668	14054	0
+0.06	holiday vs underground        	113007	14054	0
+0.06	vacat vs subway               	69668	31084	0
+0.05	holiday vs subway             	113007	31084	15
+0.05	children vs subway            	135443	31084	18
+0.05	kid vs subway                 	646599	31084	196
+0.04	holiday vs shrimp             	113007	16339	0
+0.04	kid vs underground            	646599	14054	57
+0.04	metro vs kid                  	21907	646599	102
+0.04	kid vs shrimp                 	646599	16339	32
+0.03	holiday vs prawn              	113007	2582	0
+0.03	prawn vs underground          	2582	14054	0
+0.03	metro vs shrimp               	21907	16339	0
+0.03	vacat vs shrimp               	69668	16339	0
+0.02	kid vs prawn                  	646599	2582	12
+0.02	children vs shrimp            	135443	16339	0
+0.02	shrimp vs underground         	16339	14054	0
+0.02	metro vs prawn                	21907	2582	0
+0.01	vacat vs prawn                	69668	2582	0
+0.01	children vs prawn             	135443	2582	0
+words_ukus_cosine Freq vs Similarity Spearman correlation = 0.42
+
+Sort by cosine_alpha
+0.44	shrimp vs prawn               	16339	2582	38
+0.10	holiday vs vacat              	113007	69668	766
+0.10	kid vs children               	646599	135443	4050
+0.06	subway vs prawn               	31084	2582	0
+0.06	subway vs shrimp              	31084	16339	0
+0.05	metro vs subway               	21907	31084	64
+0.02	metro vs underground          	21907	14054	39
+0.01	subway vs underground         	31084	14054	71
+0.00	kid vs vacat                  	646599	69668	606
+0.00	kid vs prawn                  	646599	2582	12
+0.00	vacat vs prawn                	69668	2582	0
+0.00	holiday vs prawn              	113007	2582	0
+0.00	children vs vacat             	135443	69668	109
+0.00	metro vs vacat                	21907	69668	0
+0.00	holiday vs children           	113007	135443	254
+0.00	vacat vs underground          	69668	14054	0
+0.00	children vs underground       	135443	14054	15
+0.00	children vs shrimp            	135443	16339	0
+0.00	kid vs shrimp                 	646599	16339	32
+0.00	metro vs children             	21907	135443	21
+0.00	holiday vs subway             	113007	31084	15
+0.00	kid vs holiday                	646599	113007	848
+0.00	children vs subway            	135443	31084	18
+0.00	metro vs kid                  	21907	646599	102
+0.00	holiday vs shrimp             	113007	16339	0
+0.00	kid vs subway                 	646599	31084	196
+0.00	prawn vs underground          	2582	14054	0
+0.00	holiday vs underground        	113007	14054	0
+0.00	vacat vs subway               	69668	31084	0
+0.00	metro vs holiday              	21907	113007	23
+0.00	children vs prawn             	135443	2582	0
+0.00	kid vs underground            	646599	14054	57
+0.00	vacat vs shrimp               	69668	16339	0
+0.00	metro vs shrimp               	21907	16339	0
+0.00	metro vs prawn                	21907	2582	0
+0.00	shrimp vs underground         	16339	14054	0
+words_ukus_cosine_alpha Freq vs Similarity Spearman correlation = 0.08
+
+Sort by cosine_ttest
+0.40	shrimp vs prawn               	16339	2582	38
+0.25	kid vs children               	646599	135443	4050
+0.23	holiday vs vacat              	113007	69668	766
+0.06	subway vs prawn               	31084	2582	0
+0.06	kid vs holiday                	646599	113007	848
+0.06	metro vs underground          	21907	14054	39
+0.05	kid vs vacat                  	646599	69668	606
+0.05	metro vs subway               	21907	31084	64
+0.04	subway vs shrimp              	31084	16339	0
+0.04	holiday vs children           	113007	135443	254
+0.04	children vs vacat             	135443	69668	109
+0.03	metro vs vacat                	21907	69668	0
+0.03	metro vs holiday              	21907	113007	23
+0.02	subway vs underground         	31084	14054	71
+0.02	metro vs children             	21907	135443	21
+0.02	children vs underground       	135443	14054	15
+0.02	kid vs underground            	646599	14054	57
+0.02	kid vs subway                 	646599	31084	196
+0.02	holiday vs underground        	113007	14054	0
+0.02	metro vs kid                  	21907	646599	102
+0.02	vacat vs underground          	69668	14054	0
+0.02	kid vs prawn                  	646599	2582	12
+0.02	holiday vs prawn              	113007	2582	0
+0.01	kid vs shrimp                 	646599	16339	32
+0.01	holiday vs subway             	113007	31084	15
+0.01	vacat vs subway               	69668	31084	0
+0.01	holiday vs shrimp             	113007	16339	0
+0.01	children vs subway            	135443	31084	18
+0.01	vacat vs prawn                	69668	2582	0
+0.01	vacat vs shrimp               	69668	16339	0
+0.00	children vs shrimp            	135443	16339	0
+0.00	prawn vs underground          	2582	14054	0
+0.00	children vs prawn             	135443	2582	0
+0.00	metro vs prawn                	21907	2582	0
+0.00	metro vs shrimp               	21907	16339	0
+0.00	shrimp vs underground         	16339	14054	0
+words_ukus_cosine_ttest Freq vs Similarity Spearman correlation = 0.37
+
+Sort by jaccard
+0.20	shrimp vs prawn               	16339	2582	38
+0.18	holiday vs vacat              	113007	69668	766
+0.14	kid vs children               	646599	135443	4050
+0.14	metro vs underground          	21907	14054	39
+0.11	metro vs subway               	21907	31084	64
+0.11	subway vs shrimp              	31084	16339	0
+0.08	holiday vs children           	113007	135443	254
+0.08	metro vs vacat                	21907	69668	0
+0.07	metro vs holiday              	21907	113007	23
+0.07	subway vs prawn               	31084	2582	0
+0.07	subway vs underground         	31084	14054	71
+0.06	metro vs children             	21907	135443	21
+0.06	children vs vacat             	135443	69668	109
+0.05	vacat vs underground          	69668	14054	0
+0.05	children vs underground       	135443	14054	15
+0.05	holiday vs underground        	113007	14054	0
+0.05	kid vs holiday                	646599	113007	848
+0.05	vacat vs subway               	69668	31084	0
+0.04	holiday vs subway             	113007	31084	15
+0.03	kid vs vacat                  	646599	69668	606
+0.03	children vs subway            	135443	31084	18
+0.03	metro vs shrimp               	21907	16339	0
+0.03	holiday vs shrimp             	113007	16339	0
+0.03	metro vs kid                  	21907	646599	102
+0.02	kid vs subway                 	646599	31084	196
+0.02	shrimp vs underground         	16339	14054	0
+0.02	kid vs underground            	646599	14054	57
+0.02	vacat vs shrimp               	69668	16339	0
+0.02	prawn vs underground          	2582	14054	0
+0.02	kid vs shrimp                 	646599	16339	32
+0.01	metro vs prawn                	21907	2582	0
+0.01	holiday vs prawn              	113007	2582	0
+0.01	children vs shrimp            	135443	16339	0
+0.01	vacat vs prawn                	69668	2582	0
+0.01	kid vs prawn                  	646599	2582	12
+0.00	children vs prawn             	135443	2582	0
+words_ukus_jaccard Freq vs Similarity Spearman correlation = 0.41
+
+Sort by jaccard_alpha
+0.22	shrimp vs prawn               	16339	2582	38
+0.06	holiday vs vacat              	113007	69668	766
+0.04	subway vs shrimp              	31084	16339	0
+0.04	subway vs prawn               	31084	2582	0
+0.03	metro vs subway               	21907	31084	64
+0.03	kid vs children               	646599	135443	4050
+0.01	metro vs underground          	21907	14054	39
+0.01	subway vs underground         	31084	14054	71
+0.00	vacat vs prawn                	69668	2582	0
+0.00	kid vs prawn                  	646599	2582	12
+0.00	kid vs vacat                  	646599	69668	606
+0.00	metro vs vacat                	21907	69668	0
+0.00	holiday vs subway             	113007	31084	15
+0.00	children vs vacat             	135443	69668	109
+0.00	holiday vs children           	113007	135443	254
+0.00	kid vs shrimp                 	646599	16339	32
+0.00	kid vs holiday                	646599	113007	848
+0.00	vacat vs underground          	69668	14054	0
+0.00	metro vs children             	21907	135443	21
+0.00	children vs underground       	135443	14054	15
+0.00	holiday vs prawn              	113007	2582	0
+0.00	children vs subway            	135443	31084	18
+0.00	children vs shrimp            	135443	16339	0
+0.00	holiday vs shrimp             	113007	16339	0
+0.00	metro vs kid                  	21907	646599	102
+0.00	prawn vs underground          	2582	14054	0
+0.00	kid vs subway                 	646599	31084	196
+0.00	vacat vs subway               	69668	31084	0
+0.00	holiday vs underground        	113007	14054	0
+0.00	metro vs holiday              	21907	113007	23
+0.00	children vs prawn             	135443	2582	0
+0.00	kid vs underground            	646599	14054	57
+0.00	vacat vs shrimp               	69668	16339	0
+0.00	metro vs shrimp               	21907	16339	0
+0.00	metro vs prawn                	21907	2582	0
+0.00	shrimp vs underground         	16339	14054	0
+words_ukus_jaccard_alpha Freq vs Similarity Spearman correlation = 0.14
+
+Sort by jaccard_ttest
+0.16	holiday vs vacat              	113007	69668	766
+0.15	kid vs children               	646599	135443	4050
+0.15	shrimp vs prawn               	16339	2582	38
+0.08	metro vs underground          	21907	14054	39
+0.08	metro vs subway               	21907	31084	64
+0.06	subway vs shrimp              	31084	16339	0
+0.06	holiday vs children           	113007	135443	254
+0.06	metro vs holiday              	21907	113007	23
+0.05	metro vs vacat                	21907	69668	0
+0.05	kid vs holiday                	646599	113007	848
+0.05	subway vs prawn               	31084	2582	0
+0.05	metro vs children             	21907	135443	21
+0.05	children vs vacat             	135443	69668	109
+0.04	subway vs underground         	31084	14054	71
+0.04	children vs underground       	135443	14054	15
+0.04	holiday vs underground        	113007	14054	0
+0.04	kid vs vacat                  	646599	69668	606
+0.03	vacat vs underground          	69668	14054	0
+0.03	holiday vs subway             	113007	31084	15
+0.03	vacat vs subway               	69668	31084	0
+0.03	metro vs kid                  	21907	646599	102
+0.03	kid vs subway                 	646599	31084	196
+0.02	kid vs underground            	646599	14054	57
+0.02	children vs subway            	135443	31084	18
+0.02	kid vs shrimp                 	646599	16339	32
+0.02	holiday vs shrimp             	113007	16339	0
+0.01	metro vs shrimp               	21907	16339	0
+0.01	holiday vs prawn              	113007	2582	0
+0.01	vacat vs shrimp               	69668	16339	0
+0.01	prawn vs underground          	2582	14054	0
+0.01	shrimp vs underground         	16339	14054	0
+0.01	children vs shrimp            	135443	16339	0
+0.01	kid vs prawn                  	646599	2582	12
+0.01	metro vs prawn                	21907	2582	0
+0.01	vacat vs prawn                	69668	2582	0
+0.00	children vs prawn             	135443	2582	0
+words_ukus_jaccard_ttest Freq vs Similarity Spearman correlation = 0.48
+
+Sort by dice
+0.33	shrimp vs prawn               	16339	2582	38
+0.30	holiday vs vacat              	113007	69668	766
+0.25	kid vs children               	646599	135443	4050
+0.24	metro vs underground          	21907	14054	39
+0.20	metro vs subway               	21907	31084	64
+0.19	subway vs shrimp              	31084	16339	0
+0.15	holiday vs children           	113007	135443	254
+0.15	metro vs vacat                	21907	69668	0
+0.14	metro vs holiday              	21907	113007	23
+0.12	subway vs prawn               	31084	2582	0
+0.12	subway vs underground         	31084	14054	71
+0.12	metro vs children             	21907	135443	21
+0.12	children vs vacat             	135443	69668	109
+0.10	vacat vs underground          	69668	14054	0
+0.10	children vs underground       	135443	14054	15
+0.09	holiday vs underground        	113007	14054	0
+0.09	kid vs holiday                	646599	113007	848
+0.09	vacat vs subway               	69668	31084	0
+0.08	holiday vs subway             	113007	31084	15
+0.07	kid vs vacat                  	646599	69668	606
+0.06	children vs subway            	135443	31084	18
+0.05	metro vs shrimp               	21907	16339	0
+0.05	holiday vs shrimp             	113007	16339	0
+0.05	metro vs kid                  	21907	646599	102
+0.05	kid vs subway                 	646599	31084	196
+0.05	shrimp vs underground         	16339	14054	0
+0.04	kid vs underground            	646599	14054	57
+0.04	vacat vs shrimp               	69668	16339	0
+0.03	prawn vs underground          	2582	14054	0
+0.03	kid vs shrimp                 	646599	16339	32
+0.03	metro vs prawn                	21907	2582	0
+0.03	holiday vs prawn              	113007	2582	0
+0.03	children vs shrimp            	135443	16339	0
+0.02	vacat vs prawn                	69668	2582	0
+0.01	kid vs prawn                  	646599	2582	12
+0.01	children vs prawn             	135443	2582	0
+words_ukus_dice Freq vs Similarity Spearman correlation = 0.41
+
+Sort by dice_alpha
+0.36	shrimp vs prawn               	16339	2582	38
+0.10	holiday vs vacat              	113007	69668	766
+0.07	subway vs shrimp              	31084	16339	0
+0.07	subway vs prawn               	31084	2582	0
+0.06	metro vs subway               	21907	31084	64
+0.06	kid vs children               	646599	135443	4050
+0.03	metro vs underground          	21907	14054	39
+0.02	subway vs underground         	31084	14054	71
+0.00	vacat vs prawn                	69668	2582	0
+0.00	kid vs prawn                  	646599	2582	12
+0.00	kid vs vacat                  	646599	69668	606
+0.00	metro vs vacat                	21907	69668	0
+0.00	holiday vs subway             	113007	31084	15
+0.00	children vs vacat             	135443	69668	109
+0.00	holiday vs children           	113007	135443	254
+0.00	kid vs shrimp                 	646599	16339	32
+0.00	kid vs holiday                	646599	113007	848
+0.00	vacat vs underground          	69668	14054	0
+0.00	metro vs children             	21907	135443	21
+0.00	children vs underground       	135443	14054	15
+0.00	holiday vs prawn              	113007	2582	0
+0.00	children vs subway            	135443	31084	18
+0.00	children vs shrimp            	135443	16339	0
+0.00	holiday vs shrimp             	113007	16339	0
+0.00	metro vs kid                  	21907	646599	102
+0.00	prawn vs underground          	2582	14054	0
+0.00	kid vs subway                 	646599	31084	196
+0.00	vacat vs subway               	69668	31084	0
+0.00	holiday vs underground        	113007	14054	0
+0.00	metro vs holiday              	21907	113007	23
+0.00	children vs prawn             	135443	2582	0
+0.00	kid vs underground            	646599	14054	57
+0.00	vacat vs shrimp               	69668	16339	0
+0.00	metro vs shrimp               	21907	16339	0
+0.00	metro vs prawn                	21907	2582	0
+0.00	shrimp vs underground         	16339	14054	0
+words_ukus_dice_alpha Freq vs Similarity Spearman correlation = 0.14
+
+Sort by dice_ttest
+0.28	holiday vs vacat              	113007	69668	766
+0.27	kid vs children               	646599	135443	4050
+0.26	shrimp vs prawn               	16339	2582	38
+0.15	metro vs underground          	21907	14054	39
+0.14	metro vs subway               	21907	31084	64
+0.12	subway vs shrimp              	31084	16339	0
+0.11	holiday vs children           	113007	135443	254
+0.10	metro vs holiday              	21907	113007	23
+0.10	metro vs vacat                	21907	69668	0
+0.10	kid vs holiday                	646599	113007	848
+0.09	subway vs prawn               	31084	2582	0
+0.09	metro vs children             	21907	135443	21
+0.09	children vs vacat             	135443	69668	109
+0.08	subway vs underground         	31084	14054	71
+0.07	children vs underground       	135443	14054	15
+0.07	holiday vs underground        	113007	14054	0
+0.07	kid vs vacat                  	646599	69668	606
+0.07	vacat vs underground          	69668	14054	0
+0.06	holiday vs subway             	113007	31084	15
+0.06	vacat vs subway               	69668	31084	0
+0.05	metro vs kid                  	21907	646599	102
+0.05	kid vs subway                 	646599	31084	196
+0.05	kid vs underground            	646599	14054	57
+0.04	children vs subway            	135443	31084	18
+0.04	kid vs shrimp                 	646599	16339	32
+0.03	holiday vs shrimp             	113007	16339	0
+0.02	metro vs shrimp               	21907	16339	0
+0.02	holiday vs prawn              	113007	2582	0
+0.02	vacat vs shrimp               	69668	16339	0
+0.02	prawn vs underground          	2582	14054	0
+0.02	shrimp vs underground         	16339	14054	0
+0.02	children vs shrimp            	135443	16339	0
+0.02	kid vs prawn                  	646599	2582	12
+0.02	metro vs prawn                	21907	2582	0
+0.01	vacat vs prawn                	69668	2582	0
+0.01	children vs prawn             	135443	2582	0
+words_ukus_dice_ttest Freq vs Similarity Spearman correlation = 0.48
+
+Sort by ecculidean
+225.40	children vs shrimp            	135443	16339	0
+218.98	holiday vs children           	113007	135443	254
+216.76	kid vs children               	646599	135443	4050
+214.88	metro vs children             	21907	135443	21
+212.81	children vs vacat             	135443	69668	109
+211.85	children vs subway            	135443	31084	18
+209.58	children vs underground       	135443	14054	15
+207.85	kid vs shrimp                 	646599	16339	32
+206.65	kid vs holiday                	646599	113007	848
+203.80	metro vs kid                  	21907	646599	102
+202.93	children vs prawn             	135443	2582	0
+198.79	kid vs vacat                  	646599	69668	606
+197.02	kid vs underground            	646599	14054	57
+195.05	kid vs subway                 	646599	31084	196
+183.91	kid vs prawn                  	646599	2582	12
+175.13	holiday vs shrimp             	113007	16339	0
+168.70	metro vs shrimp               	21907	16339	0
+165.91	metro vs holiday              	21907	113007	23
+165.50	vacat vs shrimp               	69668	16339	0
+160.86	holiday vs underground        	113007	14054	0
+160.48	shrimp vs underground         	16339	14054	0
+159.74	holiday vs subway             	113007	31084	15
+154.56	metro vs vacat                	21907	69668	0
+148.88	vacat vs underground          	69668	14054	0
+147.64	vacat vs subway               	69668	31084	0
+146.34	subway vs shrimp              	31084	16339	0
+145.17	holiday vs vacat              	113007	69668	766
+145.06	holiday vs prawn              	113007	2582	0
+144.08	metro vs underground          	21907	14054	39
+142.87	metro vs subway               	21907	31084	64
+139.70	subway vs underground         	31084	14054	71
+136.24	metro vs prawn                	21907	2582	0
+132.54	vacat vs prawn                	69668	2582	0
+125.03	prawn vs underground          	2582	14054	0
+115.21	subway vs prawn               	31084	2582	0
+113.44	shrimp vs prawn               	16339	2582	38
+words_ukus_ecculidean Freq vs Similarity Spearman correlation = 0.55
+
+Sort by ecculidean_alhpa
+64.72	metro vs shrimp               	21907	16339	0
+63.31	children vs shrimp            	135443	16339	0
+63.30	shrimp vs underground         	16339	14054	0
+59.67	subway vs shrimp              	31084	16339	0
+58.90	vacat vs shrimp               	69668	16339	0
+58.29	holiday vs shrimp             	113007	16339	0
+54.40	kid vs shrimp                 	646599	16339	32
+53.60	metro vs children             	21907	135443	21
+53.04	metro vs underground          	21907	14054	39
+52.25	metro vs prawn                	21907	2582	0
+51.87	children vs underground       	135443	14054	15
+50.54	children vs prawn             	135443	2582	0
+50.48	prawn vs underground          	2582	14054	0
+49.91	metro vs subway               	21907	31084	64
+49.51	children vs subway            	135443	31084	18
+49.13	subway vs underground         	31084	14054	71
+48.25	metro vs vacat                	21907	69668	0
+47.75	shrimp vs prawn               	16339	2582	38
+47.55	metro vs holiday              	21907	113007	23
+46.51	subway vs prawn               	31084	2582	0
+46.40	children vs vacat             	135443	69668	109
+46.35	vacat vs underground          	69668	14054	0
+45.64	holiday vs children           	113007	135443	254
+45.61	holiday vs underground        	113007	14054	0
+44.78	vacat vs prawn                	69668	2582	0
+44.00	holiday vs prawn              	113007	2582	0
+43.69	vacat vs subway               	69668	31084	0
+42.86	holiday vs subway             	113007	31084	15
+42.70	metro vs kid                  	21907	646599	102
+40.53	kid vs underground            	646599	14054	57
+39.07	kid vs children               	646599	135443	4050
+38.70	kid vs prawn                  	646599	2582	12
+37.43	kid vs subway                 	646599	31084	196
+37.17	holiday vs vacat              	113007	69668	766
+33.17	kid vs vacat                  	646599	69668	606
+32.15	kid vs holiday                	646599	113007	848
+words_ukus_ecculidean_alhpa Freq vs Similarity Spearman correlation = -0.33
+
+Sort by ecculidean_ttest
+0.35	children vs shrimp            	135443	16339	0
+0.31	kid vs shrimp                 	646599	16339	32
+0.31	children vs subway            	135443	31084	18
+0.30	holiday vs children           	113007	135443	254
+0.30	kid vs children               	646599	135443	4050
+0.29	metro vs children             	21907	135443	21
+0.29	children vs vacat             	135443	69668	109
+0.28	children vs underground       	135443	14054	15
+0.27	subway vs shrimp              	31084	16339	0
+0.27	children vs prawn             	135443	2582	0
+0.27	holiday vs shrimp             	113007	16339	0
+0.27	kid vs subway                 	646599	31084	196
+0.26	metro vs shrimp               	21907	16339	0
+0.26	kid vs holiday                	646599	113007	848
+0.26	vacat vs shrimp               	69668	16339	0
+0.26	metro vs kid                  	21907	646599	102
+0.25	shrimp vs underground         	16339	14054	0
+0.25	kid vs vacat                  	646599	69668	606
+0.24	kid vs underground            	646599	14054	57
+0.23	kid vs prawn                  	646599	2582	12
+0.23	holiday vs subway             	113007	31084	15
+0.21	metro vs subway               	21907	31084	64
+0.21	vacat vs subway               	69668	31084	0
+0.21	shrimp vs prawn               	16339	2582	38
+0.21	metro vs holiday              	21907	113007	23
+0.20	subway vs underground         	31084	14054	71
+0.19	holiday vs underground        	113007	14054	0
+0.18	metro vs vacat                	21907	69668	0
+0.18	subway vs prawn               	31084	2582	0
+0.18	holiday vs vacat              	113007	69668	766
+0.17	holiday vs prawn              	113007	2582	0
+0.17	metro vs underground          	21907	14054	39
+0.16	vacat vs underground          	69668	14054	0
+0.16	metro vs prawn                	21907	2582	0
+0.14	vacat vs prawn                	69668	2582	0
+0.13	prawn vs underground          	2582	14054	0
+words_ukus_ecculidean_ttest Freq vs Similarity Spearman correlation = 0.49
+
+Sort by jsd
+5770.32	kid vs children               	646599	135443	4050
+5731.11	kid vs holiday                	646599	113007	848
+5498.57	metro vs kid                  	21907	646599	102
+5395.26	kid vs vacat                  	646599	69668	606
+5365.61	kid vs shrimp                 	646599	16339	32
+5271.90	kid vs underground            	646599	14054	57
+5169.76	kid vs subway                 	646599	31084	196
+4882.00	kid vs prawn                  	646599	2582	12
+4776.82	children vs shrimp            	135443	16339	0
+4718.05	holiday vs children           	113007	135443	254
+4459.01	children vs subway            	135443	31084	18
+4449.26	children vs vacat             	135443	69668	109
+4388.98	metro vs children             	21907	135443	21
+4281.40	children vs underground       	135443	14054	15
+4226.28	children vs prawn             	135443	2582	0
+2663.39	holiday vs shrimp             	113007	16339	0
+2554.76	metro vs holiday              	21907	113007	23
+2484.68	holiday vs underground        	113007	14054	0
+2465.92	holiday vs subway             	113007	31084	15
+2161.92	vacat vs shrimp               	69668	16339	0
+2106.61	holiday vs prawn              	113007	2582	0
+2105.93	metro vs shrimp               	21907	16339	0
+2055.08	metro vs vacat                	21907	69668	0
+2013.92	holiday vs vacat              	113007	69668	766
+1959.08	vacat vs underground          	69668	14054	0
+1933.85	vacat vs subway               	69668	31084	0
+1837.62	shrimp vs underground         	16339	14054	0
+1626.73	metro vs subway               	21907	31084	64
+1565.97	metro vs underground          	21907	14054	39
+1565.84	vacat vs prawn                	69668	2582	0
+1563.89	subway vs underground         	31084	14054	71
+1516.77	metro vs prawn                	21907	2582	0
+1433.07	subway vs shrimp              	31084	16339	0
+1211.66	prawn vs underground          	2582	14054	0
+1007.08	subway vs prawn               	31084	2582	0
+825.24	shrimp vs prawn               	16339	2582	38
+words_ukus_jsd Freq vs Similarity Spearman correlation = 0.54
+
+Sort by jsd_alpha
+538.33	children vs shrimp            	135443	16339	0
+479.05	metro vs shrimp               	21907	16339	0
+453.34	shrimp vs underground         	16339	14054	0
+430.96	metro vs children             	21907	135443	21
+425.08	vacat vs shrimp               	69668	16339	0
+420.65	holiday vs shrimp             	113007	16339	0
+405.09	children vs underground       	135443	14054	15
+394.48	subway vs shrimp              	31084	16339	0
+390.18	children vs subway            	135443	31084	18
+376.66	children vs vacat             	135443	69668	109
+372.79	holiday vs children           	113007	135443	254
+369.88	children vs prawn             	135443	2582	0
+352.14	kid vs shrimp                 	646599	16339	32
+334.00	metro vs underground          	21907	14054	39
+316.54	metro vs vacat                	21907	69668	0
+313.96	metro vs holiday              	21907	113007	23
+309.69	metro vs prawn                	21907	2582	0
+304.60	metro vs subway               	21907	31084	64
+296.72	subway vs underground         	31084	14054	71
+291.31	vacat vs underground          	69668	14054	0
+288.21	holiday vs underground        	113007	14054	0
+283.71	prawn vs underground          	2582	14054	0
+278.12	kid vs children               	646599	135443	4050
+276.50	vacat vs subway               	69668	31084	0
+271.57	holiday vs subway             	113007	31084	15
+254.54	vacat vs prawn                	69668	2582	0
+250.98	holiday vs prawn              	113007	2582	0
+245.50	metro vs kid                  	21907	646599	102
+243.29	shrimp vs prawn               	16339	2582	38
+242.76	subway vs prawn               	31084	2582	0
+223.35	holiday vs vacat              	113007	69668	766
+220.05	kid vs underground            	646599	14054	57
+204.20	kid vs subway                 	646599	31084	196
+190.42	kid vs vacat                  	646599	69668	606
+187.44	kid vs holiday                	646599	113007	848
+182.42	kid vs prawn                  	646599	2582	12
+words_ukus_jsd_alpha Freq vs Similarity Spearman correlation = 0.01
+
+Sort by jsd_ttest
+3.64	kid vs shrimp                 	646599	16339	32
+3.51	kid vs holiday                	646599	113007	848
+3.38	metro vs kid                  	21907	646599	102
+3.36	kid vs vacat                  	646599	69668	606
+3.33	children vs shrimp            	135443	16339	0
+3.31	kid vs children               	646599	135443	4050
+3.29	kid vs subway                 	646599	31084	196
+3.23	kid vs underground            	646599	14054	57
+3.07	kid vs prawn                  	646599	2582	12
+3.05	holiday vs children           	113007	135443	254
+2.92	children vs subway            	135443	31084	18
+2.89	children vs vacat             	135443	69668	109
+2.81	metro vs children             	21907	135443	21
+2.70	children vs underground       	135443	14054	15
+2.68	children vs prawn             	135443	2582	0
+2.01	holiday vs shrimp             	113007	16339	0
+1.72	vacat vs shrimp               	69668	16339	0
+1.65	holiday vs subway             	113007	31084	15
+1.63	metro vs shrimp               	21907	16339	0
+1.62	metro vs holiday              	21907	113007	23
+1.54	holiday vs underground        	113007	14054	0
+1.44	shrimp vs underground         	16339	14054	0
+1.35	vacat vs subway               	69668	31084	0
+1.35	holiday vs prawn              	113007	2582	0
+1.35	metro vs vacat                	21907	69668	0
+1.30	subway vs shrimp              	31084	16339	0
+1.24	vacat vs underground          	69668	14054	0
+1.24	holiday vs vacat              	113007	69668	766
+1.11	metro vs subway               	21907	31084	64
+1.04	subway vs underground         	31084	14054	71
+1.03	vacat vs prawn                	69668	2582	0
+1.01	metro vs underground          	21907	14054	39
+0.94	metro vs prawn                	21907	2582	0
+0.73	prawn vs underground          	2582	14054	0
+0.73	subway vs prawn               	31084	2582	0
+0.72	shrimp vs prawn               	16339	2582	38
+words_ukus_jsd_ttest Freq vs Similarity Spearman correlation = 0.54
+
+freq vs similarity
+cosine	0.4214
+cosine_alpha	0.0790
+cosine_ttest	0.3726
+jaccard	0.4145
+jaccard_alpha	0.1356
+jaccard_ttest	0.4824
+dice	0.4145
+dice_alpha	0.1356
+dice_ttest	0.4824
+ecculidean	0.5528
+ecculidean_alhpa	-0.3336
+ecculidean_ttest	0.4899
+jsd	0.5447
+jsd_alpha	0.0087
+jsd_ttest	0.5383
+N 138489679.0
+sum o_counts values 641514746
+Vocabulry size, number of keys in o_counts 210516
